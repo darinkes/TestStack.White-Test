@@ -3,6 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestStack.White-Test", "TestStack.White-Test\TestStack.White-Test.csproj", "{71AE82DF-5571-4845-8792-FE49636F15EE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5072D1DF-2FAB-4FB8-8999-7826ED64D12B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestStack.White-Test.App", "TestStack.White-Test.App\TestStack.White-Test.App.csproj", "{5224E834-88CC-42FE-B919-B0A26EA44284}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +20,10 @@ Global
 		{71AE82DF-5571-4845-8792-FE49636F15EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71AE82DF-5571-4845-8792-FE49636F15EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71AE82DF-5571-4845-8792-FE49636F15EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5224E834-88CC-42FE-B919-B0A26EA44284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5224E834-88CC-42FE-B919-B0A26EA44284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5224E834-88CC-42FE-B919-B0A26EA44284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5224E834-88CC-42FE-B919-B0A26EA44284}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
