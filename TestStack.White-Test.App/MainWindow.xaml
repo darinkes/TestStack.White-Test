@@ -4,7 +4,7 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <DataGrid AutomationProperties.AutomationId="ParentDataGrid"  ItemsSource="{Binding Models}"
-                  AutoGenerateColumns="False">
+                  AutoGenerateColumns="False" RowDetailsVisibilityMode="Visible">
             <DataGrid.Columns>
                 <DataGridTemplateColumn Header="One">
                     <DataGridTemplateColumn.CellTemplate>
@@ -29,7 +29,15 @@
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
-                
+
+                <DataGridTemplateColumn Header="Button">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Button"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
             </DataGrid.Columns>
             <DataGrid.RowDetailsTemplate>
                 <DataTemplate>

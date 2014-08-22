@@ -51,6 +51,14 @@ namespace TestStack.White_Test
                 var screenRepository = workSession.Attach(Application);
                 var mainWindow = screenRepository.Get<MainWindow>("MainWindow", InitializeOption.NoCache);
                 Assert.IsNotNull(mainWindow);
+                foreach (var row in mainWindow.ListView.Rows)
+                {
+                    Logger.Info("ROW: " + row);
+                    foreach (var cell in row.Cells)
+                    {
+                        Logger.Info("\tCELL: " + cell);
+                    }
+                }
             }
         }
 
