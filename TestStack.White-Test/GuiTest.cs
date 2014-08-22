@@ -59,9 +59,9 @@ namespace TestStack.White_Test
                         Logger.Info("\tCELL: " + cell);
                     }
                 }
+
+                Assert.AreEqual(3, mainWindow.ListView.Rows.Count);
             }
         }
-
-
     }
 }
