@@ -10,6 +10,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5072D1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestStack.White-Test.App", "TestStack.White-Test.App\TestStack.White-Test.App.csproj", "{5224E834-88CC-42FE-B919-B0A26EA44284}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{EE64EA5B-515D-41AB-AC77-A709B27BD19B}"
+	ProjectSection(SolutionItems) = preProject
+		runtest.bat = runtest.bat
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
